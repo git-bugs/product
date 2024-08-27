@@ -1,0 +1,36 @@
+.header {
+  color: #fff;
+}
+.header-inner {
+  padding: 50px;
+  background: #445162;
+  display: flex;
+  justify-content: space-between;
+}
+h1 {
+  font-size: 60px;
+  margin-bottom: 52px;
+  font-weight: 400;
+}
+.header-info {
+}
+.header-list {
+  font-size: 20px;
+}
+.header-item {
+  position: relative;
+  padding-left: 35px;
+  &::before {
+    content: url('./src/images/icon.png');
+    position: absolute;
+    width: 25px;
+    height: 19px;
+    left: 0;
+    top: 3px;
+  }
+}
+.header-image {
+  width: 469px;
+  height: 214px;
+  background: #fff;
+}
