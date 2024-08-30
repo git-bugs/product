@@ -1,5 +1,6 @@
 .plans {
 }
+
 .plans-wrapper {
   background: #fff;
   padding: 50px;
@@ -62,4 +63,17 @@
   height: 40px;
   font-size: 18px;
   font-weight: 700;
+}
+
+
+@media (max-width:1000px){
+  .plans-items {
+    align-items: center;
+    flex-direction: column;
+    gap: 16px 0;
+  }
+  .plans-item {
+    width: 100%;
+    max-width: 400px;
+  }
 }

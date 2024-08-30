@@ -1,27 +1,33 @@
 .pluses {
   color: var(--bg2);
 }
-.container {
-}
+
 .pluses-inner {
   padding: 50px;
   background: #f5f5f5;
 }
+
 .pluses-title {
   text-align: center;
   margin-bottom: 32px;
 }
+
 .pluses-list {
   display: flex;
   flex-wrap: wrap;
   gap: 32px 0;
 }
+
 .pluses-item {
   width: 50%;
   display: flex;
   justify-content: space-between;
   color: #333;
+  p {
+    padding-right: 8px;
+  }
 }
+
 .pluses-tem-icon {
   flex-shrink: 0;
   width: 32px;
@@ -30,7 +36,7 @@
   position: relative;
   margin-right: 9px;
   margin-top: 3px;
-  div{
+  div {
     background: #fff;
     position: absolute;
     top: 50%;
@@ -44,5 +50,23 @@
   div:nth-child(2) {
     height: 20px;
     width: 4px;
+  }
+}
+
+@media (max-width: 800px) {
+  .pluses-inner {
+    flex-direction: column;
+  }
+  .pluses-list {
+    gap: 16px 0;
+  }
+  .pluses-item {
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .pluses-list {
+    font-size: 14px;
   }
 }

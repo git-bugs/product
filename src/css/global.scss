@@ -38,9 +38,8 @@ body {
 }
 
 .container {
-  max-width: 1300px;
+  max-width: 1280px;
   margin: 0 auto;
-  padding: 0 10px;
 }
 
 section {
@@ -51,4 +50,17 @@ h2 {
   font-size: 30px;
   font-weight: 400;
   color: var(--bg2);
+}
+
+
+
+@media (max-width: 1100px) {
+  .block {
+    padding: 24px;
+  }
+}
+@media (max-width: 500px) {
+  .block {
+    padding: 24px 8px;
+  }
 }

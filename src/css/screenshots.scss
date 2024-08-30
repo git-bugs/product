@@ -1,3 +1,5 @@
+.screenshots {
+}
 
 .screenshots-inner {
   padding: 50px;
@@ -15,6 +17,7 @@
 .screenshots-item {
   display: flex;
   width: 50%;
+  padding-right: 8px;
 }
 .screenshots-image {
   flex-shrink: 0;
@@ -33,4 +36,40 @@
 }
 .screenshots-item-text {
   max-width: 360px;
+}
+
+@media (max-width: 1000px) {
+  .screenshots-item {
+    flex-direction: column;
+  }
+  .screenshots-image {
+    max-width: 90%;
+    width: 100%;
+    height: 200px;
+    margin-bottom: 8px;
+  }
+}
+
+@media (max-width: 800px) {
+  .screenshots-items {
+    flex-direction: column;
+  }
+  .screenshots-item {
+    width: 100%;
+    padding-right: 0;
+  }
+  .screenshots-image {
+    max-width: 400px;
+    width: 100%;
+    margin-right: 0;
+  }
+  .screenshots-item-text {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  .screenshots-item-text {
+    font-size: 14px;
+  }
 }

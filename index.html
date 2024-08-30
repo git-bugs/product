@@ -12,9 +12,9 @@
 
   <header class="header">
     <div class="container">
-      <div class="header-inner">
+      <div class="header-inner block">
         <div class="header-info">
-          <h1>Product name</h1>
+          <h1 class="header-title">Product name</h1>
           <ul class="header-list">
             <li class="header-item">Put on this page information about your product</li>
             <li class="header-item">A detailed description of your product</li>
@@ -29,7 +29,7 @@
 
   <section class="about">
     <div class="container">
-      <div class="about-inner">
+      <div class="about-inner block">
         <div class="about-info">
           <h2 class="about-title">About your product</h2>
           <p class="about-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis facilis fuga, illo at. Natus eos, eligendi illum rerum omnis porro ex, magni, explicabo veniam incidunt in quam sapiente ut ipsum.</p>
@@ -42,7 +42,7 @@
 
   <section class="pluses">
     <div class="container">
-      <div class="pluses-inner">
+      <div class="pluses-inner block">
         <h2 class="pluses-title">Dignity and pluses product</h2>
         <ul class="pluses-list">
           <li class="pluses-item">
@@ -95,7 +95,7 @@
 
   <section class="screenshots">
     <div class="container">
-      <div class="screenshots-inner">
+      <div class="screenshots-inner block">
         <h2 class="screenshots-title">Screenshots</h2>
         <div class="screenshots-items">
           <div class="screenshots-item">
@@ -133,37 +133,46 @@
 
   <section class="reviews">
     <div class="container">
-      <div class="review-wrapper">
+      <div class="review-wrapper block">
         <h2 class="review-title">Reviews</h2>
-        <div class="review-items">
-          <div class="review-item">
-            <div class="review-image"></div>
-            <div class="review-body">
-              <p class="review-text">Porro officia cumque sint deleniti nemo facere rem vitae odit inventore cum odio, iste quia doloribus autem aperiam nulla ea neque reprehenderit. Libero doloribus, possimus officiis sapiente necessitatibus commodi consectetur?</p>
-              <div class="review-author">Lourens S.</div>
+        <div class="review-swiper swiper">
+          <div class="swiper-wrapper review-items">
+            
+            <div class="review-item swiper-slide">
+              <div class="review-image"></div>
+              <div class="review-body">
+                <p class="review-text">Porro officia cumque sint deleniti nemo facere rem vitae odit inventore cum odio, iste quia doloribus autem aperiam nulla ea neque reprehenderit. Libero doloribus, possimus officiis sapiente necessitatibus commodi consectetur?</p>
+                <div class="review-author">Lourens S.</div>
+              </div>
             </div>
-          </div>
-          <div class="review-item">
-            <div class="review-image"></div>
-            <div class="review-body">
-              <p class="review-text">Porro officia cumque sint deleniti nemo facere rem vitae odit inventore cum odio, iste quia doloribus autem aperiam nulla ea neque reprehenderit. Libero doloribus, possimus officiis sapiente necessitatibus commodi consectetur?</p>
-              <div class="review-author">Lourens S.</div>
+
+            <div class="review-item swiper-slide">
+              <div class="review-image"></div>
+              <div class="review-body">
+                <p class="review-text">Porro officia cumque sint deleniti nemo facere rem vitae odit inventore cum odio, iste quia doloribus autem aperiam nulla ea neque reprehenderit. Libero doloribus, possimus officiis sapiente necessitatibus commodi consectetur?</p>
+                <div class="review-author">Lourens S.</div>
+              </div>
             </div>
-          </div>
-          <div class="review-item">
-            <div class="review-image"></div>
-            <div class="review-body">
-              <p class="review-text">Porro officia cumque sint deleniti nemo facere rem vitae odit inventore cum odio, iste quia doloribus autem aperiam nulla ea neque reprehenderit. Libero doloribus, possimus officiis sapiente necessitatibus commodi consectetur?</p>
-              <div class="review-author">Lourens S.</div>
+
+            <div class="review-item swiper-slide">
+              <div class="review-image"></div>
+              <div class="review-body">
+                <p class="review-text">Porro officia cumque sint deleniti nemo facere rem vitae odit inventore cum odio, iste quia doloribus autem aperiam nulla ea neque reprehenderit. Libero doloribus, possimus officiis sapiente necessitatibus commodi consectetur?</p>
+                <div class="review-author">Lourens S.</div>
+              </div>
             </div>
-          </div>
-          <div class="review-item">
-            <div class="review-image"></div>
-            <div class="review-body">
-              <p class="review-text">Porro officia cumque sint deleniti nemo facere rem vitae odit inventore cum odio, iste quia doloribus autem aperiam nulla ea neque reprehenderit. Libero doloribus, possimus officiis sapiente necessitatibus commodi consectetur?</p>
-              <div class="review-author">Lourens S.</div>
+
+            <div class="review-item swiper-slide">
+              <div class="review-image"></div>
+              <div class="review-body">
+                <p class="review-text">Porro officia cumque sint deleniti nemo facere rem vitae odit inventore cum odio, iste quia doloribus autem aperiam nulla ea neque reprehenderit. Libero doloribus, possimus officiis sapiente necessitatibus commodi consectetur?</p>
+                <div class="review-author">Lourens S.</div>
+              </div>
             </div>
+
           </div>
+          <!-- <div class="swiper-button-next">next</div>
+          <div class="swiper-button-prev">prev</div> -->
         </div>
       </div>
     </div>
@@ -171,7 +180,7 @@
 
   <section class="plans">
     <div class="container">
-      <div class="plans-wrapper">
+      <div class="plans-wrapper block">
         <h2 class="plans-title">Buy it now</h2>
         <div class="plans-items">
           <div class="plans-item">
@@ -233,7 +242,7 @@
 
   <section class="contacts">
     <div class="container">
-      <div class="contacts-wrapper">
+      <div class="contacts-wrapper block">
         <h2 class="contacts-title">Contacts</h2>
         <div class="contacts-box">
           <form class="contacts-form">
@@ -263,17 +272,28 @@
             </ul>
             <ul class="contacts-social">
               <li class="social-item">
-                <a href="" class="social-link">
-                  <img src="src/images/twit.png" alt="">
+                <a href="#" class="social-link">
+                  <img src="src/images/twitt.svg" alt="twitter">
                 </a>
-                <a href="" class="social-link">
-                  <img src="src/images/twit.png" alt="">
+              </li>
+              <li class="social-item">
+                <a href="#" class="social-link">
+                  <img src="src/images/fb.svg" alt="facebook">
                 </a>
-                <a href="" class="social-link">
-                  <img src="src/images/twit.png" alt="">
+              </li>
+              <li class="social-item">
+                <a href="#" class="social-link">
+                  <img src="src/images/linkedin.svg" alt="linkedin">
                 </a>
-                <a href="" class="social-link">
-                  <img src="src/images/twit.png" alt="">
+              </li>
+              <li class="social-item">
+                <a href="#" class="social-link">
+                  <img src="src/images/google.svg" alt="google">
+                </a>
+              </li>
+              <li class="social-item">
+                <a href="#" class="social-link">
+                  <img src="src/images/youtube.svg" alt="youtube">
                 </a>
               </li>
             </ul>
